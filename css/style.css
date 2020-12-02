@@ -1,0 +1,277 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active {
+	outline: none;
+}
+a:focus,a:active{
+	outline: none;
+}
+nav,footer,header,aside {
+	display: block;
+}
+html,body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 16px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: 'Rubik', sans-serif;
+}
+input,button,textarea {
+	font-family:inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding:0;
+	border:0;
+}
+a, a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+	font-size:inherit;
+	font-weight: 700;
+}
+.header {
+	background-color: #F6F6F9;
+	padding-bottom: 5px;
+	margin-bottom: 22px;
+}
+.header_top {
+	display: flex;
+	padding-left: 100px;
+	padding-right: 100px;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 12px;
+	padding-bottom: 40px;
+}
+.header_top_logo {
+	display: flex;
+	align-items: center;
+}
+.valyuta {
+	display: flex;
+	justify-content: space-between;
+}
+.dollar, .rubl, .euro {
+	display: flex;
+}
+.header_top_logo_link > img {
+	margin-right: 23px;
+}
+.valyuta > div > span {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	color: #285193;
+	margin-right: 5px;
+}
+.valyuta > div > p {
+	font-size: 16px;
+	line-height: 19px;
+	color: #7A7A7A;
+	margin-right: 12px;
+}
+.euto_text {
+	margin-right: 0!important;
+}
+.header_top_search {
+	display: flex;
+	align-items: center;
+}
+.header_top_search > button {
+	width: 38.1px;
+	height: 40px;
+	background: #FFFFFF;
+	border-radius: 5px;
+	margin-right: 21px;
+}
+.russian {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	height: 40px;
+	width: 64.76px;
+	border-radius: 5px;
+}
+.russian > img {
+	border-radius: 50%;
+	margin-right: 5px;
+}
+.russian > span {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #535353;
+	padding-top: 5px;
+}
+.telegram {
+	margin-left: 30px;
+}
+.telegram > a {
+	display: inline-flex;
+	align-items: center;
+	width: 146px;
+	height: 40px;
+	background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+	border-radius: 5px;
+    justify-content: center;
+}
+.telegram > a:hover {
+	background: linear-gradient(90deg, #37AEE2 15.07%, #1E96C8 85.96%);
+}
+.telegram > a > img {
+	margin-right: 7px;
+}
+.telegram > a > span {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+}
+.nav {
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 18px;
+}
+.nav > ul {
+	background-color: #fff;
+	padding: 21px 24px 24px 24px;
+	box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+.nav > ul > li > a {
+	font-weight: 500;
+	font-size: 19px;
+	line-height: 23px;
+	color: #515151;
+}
+.header_add {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+	display: flex;
+	justify-content: center;
+}
+.covid_info {
+	padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+}
+.covid_info > div > ul {
+	background-color: #F6F6F9;
+}
+.covid_info_box > ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 35px;
+}
+.covid_info_box > ul > li {
+    display: flex;
+    align-items: center;
+}
+.covid_info_box > ul > li > a {
+    display: flex;
+    align-items: center;
+}
+.covid_info_box > ul > li > a > p {
+    max-width: 232px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    margin-left: 25px;
+}
+.infection {
+    border-left: 2px solid #EB5569;
+    padding-left: 35px;
+}
+.infection > div {
+    margin-left: 17px;
+}
+.infection > div > p {
+    max-width: 161px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #DB0000;
+}
+.infection > div > span {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+.health {
+    border-left: solid 2px #F4CCD1;
+    padding-left: 35px;
+}
+.health > div {
+    margin-left: 17px;
+}
+.health > div > p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #05B135;
+}
+.health > div > span {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+.death {
+    border-left: solid 2px #F4CCD1;
+    padding-left: 35px;
+}
+.death > div {
+    margin-left: 17px;
+}
+.death > div > p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+}
+.death > div > span {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+.uzb_news {
+    padding-left: 100px;
+    padding-right: 100px;
+}
