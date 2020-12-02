@@ -466,4 +466,89 @@ h1,h2,h3,h4,h5,h6 {
     display: inline-block;
     margin-left: 15px;
 }
-    
+.footer {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #295093;
+}
+.footer_box {
+    padding: 20px 0;
+}
+.footer_top {
+    border-bottom: solid 3px #133C82;
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.second_logo {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    background-color: #133C82;
+    border-radius: 5px;
+}
+.footer_top > p {
+    margin-left: auto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 15px;
+}
+.sign > a {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 8px 11px;
+    border-radius: 5px;
+}
+.sign > a > img {
+    margin-right: 5px;
+}
+.sign > a > span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
+}
+.footer_end {
+    padding-top: 12px;
+    display: flex;
+}
+.about {
+    max-width: 365px;
+    margin-right: 111px;
+}  
+.about > h4 {
+    margin-bottom: 12px;
+}
+.about > h4, p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.second_col {
+    margin-right: 115px;
+}
+.second_col > li {
+    margin-bottom: 14px;
+}
+.second_col > li > a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.third_col > li {
+    margin-bottom: 14px;
+}
+.third_col > li > a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
